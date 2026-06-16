@@ -5,7 +5,7 @@ Welcome to the ultimate **Python Full tutorial Course**, where you'll learn ever
 
 ## Youtube Video link
 
-[Python Course Video Playlist]()
+[Python Course Video Playlist](https://www.youtube.com/playlist?list=PL0b6OzIxLPbz5blLyrQB25pmbHaWEfg7m)
 
 ## Follow Us
 
