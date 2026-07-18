@@ -1,0 +1,80 @@
+
+Create File : Nested-Functions.py
+-----------------------------------------------------------------
+1 - 
+
+def outer():
+
+    print("Inside Outer Function")
+
+    def inner():
+        print("Inside Inner Function")
+
+    inner()
+
+outer()
+
+-----------
+
+inner() <--- Show it gives error because we can't call inner function from outside
+
+-----------------------------------------------------------------
+2 - Calculator
+
+def calculator(a, b):
+
+    def add():
+        return a + b
+
+    def subtract():
+        return a - b
+
+    print("Addition :", add())
+    print("Subtraction :", subtract())
+
+calculator(20, 5)
+
+-----------------------------------------------------------------
+3 - Login System
+
+def login(username, password):
+
+    def validate():
+
+        return username == "admin" and password == "1234"
+
+    if validate():
+        print("Login Successful")
+    else:
+        print("Invalid Credentials")
+
+login("admin", "1234")
+login("rahul", "1111")
+
+-----------------------------------------------------------------
+4 - Nested Function Accessing Outer Variables
+
+def outer():
+
+    message = "Welcome"
+
+    def inner():
+        print(message)
+
+    inner()
+
+outer()
+
+---- Tell inner function can also return some value like normal function with return value
+
+=========================================================
+
+-- Get the video code from our GitHub Account
+
+
+
+
+
+
+
+
