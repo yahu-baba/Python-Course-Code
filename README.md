@@ -9,7 +9,7 @@ Welcome to the ultimate **Python Full tutorial Course**, where you'll learn ever
 
 ## Follow Us
 
-[www.yahubaba.com](https://www.yoobaba.com)
+[www.yoobaba.com](https://www.yoobaba.com)
 
 [Youtube Channel](https://www.youtube.com/@yoo-baba)
 
